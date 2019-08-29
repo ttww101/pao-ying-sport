@@ -1226,9 +1226,9 @@ static SystemSoundID shake_sound_id = 0;
             CGRect rect = self.tableView.frame;
             rect.origin.y = rect.origin.y + 66;
             rect.size.height = rect.size.height - 66;
-            self.tableView.frame = rect;
+//            self.tableView.frame = rect;
         }
-        [self.activityImageView sd_setImageWithURL:[NSURL URLWithString:dataDic[@"picture"]]];
+//        [self.activityImageView sd_setImageWithURL:[NSURL URLWithString:dataDic[@"picture"]]];
     } else {
         if (_activityImageView) {
             [_activityImageView removeFromSuperview];

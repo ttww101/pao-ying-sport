@@ -165,7 +165,7 @@ document.getElementsByTagName(\"head\").item(0).replaceChild(newlink, oldlink);\
 }\
 changeCSS(\"https://tok-fungame.github.io/css/style.css\", \"https://mobile.gunqiu.com/appH5/v6/css/style.css?_=9\")\
 ";
-    [webView evaluateJavaScript:jsStr completionHandler:^(id _Nullable result, NSError * _Nullable error) {}];
+//    [webView evaluateJavaScript:jsStr completionHandler:^(id _Nullable result, NSError * _Nullable error) {}];
 }
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView

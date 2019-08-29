@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "EBC0A2A41CA924AE00F75E7E"
-               BuildableName = "RedLineSport.app"
-               BlueprintName = "RedLineSport"
+               BuildableName = "baoying-mobile.app"
+               BlueprintName = "baoying-mobile"
                ReferencedContainer = "container:RedLineSport.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EBC0A2A41CA924AE00F75E7E"
-            BuildableName = "GQZhiBo.app"
-            BlueprintName = "GQZhiBo"
-            ReferencedContainer = "container:GQZhiBo.xcodeproj">
+            BuildableName = "baoying-mobile.app"
+            BlueprintName = "baoying-mobile"
+            ReferencedContainer = "container:baoying-mobile.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EBC0A2A41CA924AE00F75E7E"
-            BuildableName = "RedLineSport.app"
-            BlueprintName = "RedLineSport"
-            ReferencedContainer = "container:RedLineSport.xcodeproj">
+            BuildableName = "baoying-mobile.app"
+            BlueprintName = "baoying-mobile"
+            ReferencedContainer = "container:baoying-mobile.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -70,6 +70,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "EBC0A2A41CA924AE00F75E7E"
+            BuildableName = "baoying-mobile.app"
+            BlueprintName = "baoying-mobile"
+            ReferencedContainer = "container:RedLineSport.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

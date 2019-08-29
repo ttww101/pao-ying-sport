@@ -62,8 +62,6 @@
 
 @property (nonatomic, strong) UIImageView *snaView;
 
-
-
 @end
 
 @implementation RLSAppDelegate
@@ -359,10 +357,6 @@
 //判断是以什么情况进入app的
 - (void)isFirstLaunched
 {
-    
-    
-
-    
     NSDictionary *infoDic=[[NSBundle mainBundle] infoDictionary];
     NSString *currentVersion=infoDic[@"CFBundleShortVersionString"];
     if (![[NSUserDefaults standardUserDefaults] objectForKey:@"localAppVersion"]) {
@@ -498,6 +492,8 @@
 //
 ////    正式环境
     APPDELEGATE.url_Server = @"https://mobile.gunqiu.com/interface/v3.6";
+//    APPDELEGATE.url_Server = @"http://localhost:8888/tok-fungame.github.io";
+//    APPDELEGATE.url_Server = @"http://127.0.0.1:4000/tok-fungame.github.io";
     APPDELEGATE.url_jsonHeader = @"http://mobile.gunqiu.com";
     APPDELEGATE.url_ServerWWW = @"http://www.gunqiu.com";
     APPDELEGATE.url_ServerAgreement = @"http://www.gunqiu.com";

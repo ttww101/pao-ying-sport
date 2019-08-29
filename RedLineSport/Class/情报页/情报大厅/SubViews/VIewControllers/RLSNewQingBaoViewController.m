@@ -43,10 +43,12 @@
         [self.navigationController pushViewController:control animated:true];
     } else {}
 }
+
 -(UIStatusBarStyle)preferredStatusBarStyle
 {
     return UIStatusBarStyleLightContent;
 }
+
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];

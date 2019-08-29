@@ -33,9 +33,9 @@
         title = model.name;
     }
     if (model.isSelected) {
-        self.bgView.layer.borderColor = UIColorHex(#FF8E00).CGColor;
-        _labTitle.textColor = UIColorHex(#FF8E00);
-        _labCount.textColor = UIColorHex(#FF8E00);
+        self.bgView.layer.borderColor = UIColorHex(#DF2B34).CGColor;
+        _labTitle.textColor = UIColorHex(#DF2B34);
+        _labCount.textColor = UIColorHex(#DF2B34);
     }else{
         self.bgView.backgroundColor = [UIColor whiteColor];
         self.bgView.layer.borderColor = UIColorHex(#E2E2E2).CGColor;

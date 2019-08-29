@@ -61,7 +61,7 @@
 
 - (void)configUI {
     [self.view addSubview:self.floatingView];
-    _menuButtonView = [[GBPopMenuButtonView alloc] initWithItems:@[@"聊天", @"form_publish",@"formReload"] size:CGSizeMake(50, 50) type:GBMenuButtonTypeLineTop isMove:YES];
+    _menuButtonView = [[GBPopMenuButtonView alloc] initWithItems:@[@"聊天", @"form_publish",@"formReload"] size:CGSizeMake(50, 50) type:GBMenuButtonTypeLineTop isMove:NO];
     _menuButtonView.delegate = self;
     CGFloat width = self.view.frame.size.width;
     CGFloat height = self.view.frame.size.height;
@@ -408,7 +408,7 @@
         UIImage *image2 = [UIImage imageNamed:@"icon-tjya"];
         UIImage *image3 = [UIImage imageNamed:@"icon-tjdx"];
         CGFloat y = 7;
-        CGFloat imageSize = 115;
+        CGFloat imageSize = 90;
         CGFloat spacing = (Width - 20 - imageSize * 3) / 2;
         UIButton *btn1 = [[UIButton alloc] initWithFrame:CGRectMake(10, y, imageSize, 46)];
         
@@ -560,7 +560,7 @@
     if (_currentIndex == 3) {
         self.floatingView.hidden = true;
     } else {
-        self.floatingView.hidden = false;
+        self.floatingView.hidden = true;
     }
     [self.titleView updateSelectedIndex:_currentIndex];
 }

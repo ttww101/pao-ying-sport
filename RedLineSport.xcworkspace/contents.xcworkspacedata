@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:RedLineSport.xcodeproj">
+      location = "group:/Users/apple/Desktop/&#x9023;&#x7d05;&#x9ad4;&#x80b2;/baoying-mobile.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
