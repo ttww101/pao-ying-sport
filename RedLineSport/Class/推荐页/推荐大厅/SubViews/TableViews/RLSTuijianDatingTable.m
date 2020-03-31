@@ -231,7 +231,7 @@
     }else if (btn.tag == 4){
         recmdLVC.typeList = typeListThree;
     }
-    NSArray *arrStr = @[@"专家榜",@"盈利榜",@"连红榜",@"人气榜",@"明灯榜"];
+    NSArray *arrStr = @[@"专家榜",@"盈利榜",@"宝盈榜",@"人气榜",@"明灯榜"];
     recmdLVC.titleStr = arrStr[btn.tag];
     recmdLVC.hidesBottomBarWhenPushed = YES;
     [APPDELEGATE.customTabbar pushToViewController:recmdLVC animated:YES];

@@ -67,7 +67,7 @@
         _labNumOneStr.font = font11;
         _labNumOneStr.textColor = redcolor;
         _labNumOneStr.textAlignment = NSTextAlignmentCenter;
-        _labNumOneStr.text = @"当前连红";
+        _labNumOneStr.text = @"当前宝盈";
     }
     return _labNumOneStr;
 }

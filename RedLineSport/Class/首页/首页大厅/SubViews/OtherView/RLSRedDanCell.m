@@ -94,7 +94,7 @@
         _labRedNum.backgroundColor = redcolor;
         _labRedNum.layer.cornerRadius = 14/2;
         _labRedNum.layer.masksToBounds = YES;
-        _labRedNum.text = @"  7连红  ";
+        _labRedNum.text = @"  7宝盈  ";
     }
     return _labRedNum;
 }

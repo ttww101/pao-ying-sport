@@ -14,7 +14,7 @@
     }
     [groupArray addObject:array1];
     NSArray *imageArra2 = @[@"image15", @"image16",@"image5"];
-    NSArray *leftContentArry2 = @[@"分析师申请", @"推荐记录", @"推荐统计"];
+    NSArray *leftContentArry2 = @[@"申请专家", @"推荐", @"统计"];
     NSMutableArray *array2 = [NSMutableArray new];
     for (NSInteger i = 0; i < imageArra2.count; i ++) {
         RLSMineModel *model = [[RLSMineModel alloc]init];

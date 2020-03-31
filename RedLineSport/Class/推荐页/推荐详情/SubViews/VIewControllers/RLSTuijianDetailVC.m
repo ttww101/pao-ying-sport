@@ -615,9 +615,9 @@
                         if (!(str.length > 0)) {
                             str = @"钻石";
                         }
-                        _labelQiuBi.text = [NSString stringWithFormat:@"需支付 %ld 连红币", _model.amount == 3800 ? 30 : _model.amount / 100];
+                        _labelQiuBi.text = [NSString stringWithFormat:@"需支付 %ld 宝盈币", _model.amount == 3800 ? 30 : _model.amount / 100];
                         _labelQiuBi.font = font14;
-                        _labelQiuBi.attributedText = [RLSMethods withContent:_labelQiuBi.text WithColorText:[NSString stringWithFormat:@"%ld 连红币", _model.amount == 3800 ? 30 : _model.amount / 100] textColor:redcolor strFont:font18];
+                        _labelQiuBi.attributedText = [RLSMethods withContent:_labelQiuBi.text WithColorText:[NSString stringWithFormat:@"%ld 宝盈币", _model.amount == 3800 ? 30 : _model.amount / 100] textColor:redcolor strFont:font18];
                     } else {
                         self.bottomView.hidden = NO;
                         self.payView.hidden = YES;
@@ -925,7 +925,7 @@
                 NSString *gemAmount = dataDic[@"productId"];
                 gemAmount = [gemAmount stringByReplacingOccurrencesOfString:@"com.Gunqiu.GQapptuijian" withString:@""];
 
-                NSString *productID = [NSString stringWithFormat:@"com.lineredsport.mobile.%@gems", gemAmount];
+                NSString *productID = [NSString stringWithFormat:@"com.baoying.mobile.%@gems", gemAmount];
                 _orderId = dataDic[@"orderId"];
                 NSInteger amount = [RLSMethods amountWithProductId:productID];
                 amount = amount * 100;

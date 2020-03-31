@@ -7524,6 +7524,7 @@
 				TargetAttributes = {
 					EBC0A2A41CA924AE00F75E7E = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = ACAT93WQJH;
 						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -8961,7 +8962,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 4;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = ACAT93WQJH;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -9018,7 +9019,7 @@
 					"-framework",
 					"\"SVProgressHUD\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lineredsport.mobile1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baoying.mobile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "RedLineSport/RedLineSport-Bridging-Header.h";
@@ -9041,7 +9042,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 4;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = ACAT93WQJH;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -9098,7 +9099,7 @@
 					"-framework",
 					"\"SVProgressHUD\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lineredsport.mobile1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baoying.mobile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "RedLineSport/RedLineSport-Bridging-Header.h";
@@ -9164,7 +9165,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 4;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = ACAT93WQJH;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -9221,7 +9222,7 @@
 					"-framework",
 					"\"SVProgressHUD\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lineredsport.mobile1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baoying.mobile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "RedLineSport/RedLineSport-Bridging-Header.h";

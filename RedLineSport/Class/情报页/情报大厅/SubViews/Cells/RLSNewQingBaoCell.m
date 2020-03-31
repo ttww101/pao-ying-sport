@@ -177,12 +177,12 @@
             self.labGues.text = [NSString stringWithFormat:@"%@...",[self.labGues.text substringToIndex:3]];
         }
     }else if(isOniphone6 || isOniphone7){
-        if (self.labHome.text.length > 5) {
-            self.labHome.text = [NSString stringWithFormat:@"%@...",[self.labHome.text substringToIndex:6]];
-        }
-        if (self.labGues.text.length > 5) {
-            self.labGues.text = [NSString stringWithFormat:@"%@...",[self.labGues.text substringToIndex:6]];
-        }
+//        if (self.labHome.text.length > 5) {
+//            self.labHome.text = [NSString stringWithFormat:@"%@...",[self.labHome.text substringToIndex:6]];
+//        }
+//        if (self.labGues.text.length > 5) {
+//            self.labGues.text = [NSString stringWithFormat:@"%@...",[self.labGues.text substringToIndex:6]];
+//        }
     }
     [self.homeImg sd_setImageWithURL:[NSURL URLWithString:url_imageTeam(model.hometeamid)]];
     [self.guesImg sd_setImageWithURL:[NSURL URLWithString:url_imageTeam(model.guestteamid)]];

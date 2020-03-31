@@ -731,7 +731,7 @@
             }];
             UIButton *btnRed = [UIButton buttonWithType:UIButtonTypeCustom];
             btnRed.titleLabel.font = font14;
-            [btnRed setTitle:@" 连红 " forState:UIControlStateNormal];
+            [btnRed setTitle:@" 宝盈 " forState:UIControlStateNormal];
             [btnRed setTitleColor:color66 forState:UIControlStateNormal];
             [btnRed setTitleColor:color33 forState:UIControlStateSelected];
             btnRed.tag = 2;

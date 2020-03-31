@@ -73,7 +73,7 @@
             if (!(str.length > 0)) {
                 str = @"钻石";
             }
-            _labMoney.text = [NSString stringWithFormat:@" %ld 连红币 ",_model.amount==3800?30:_model.amount/100];
+            _labMoney.text = [NSString stringWithFormat:@" %ld 宝盈币 ",_model.amount==3800?30:_model.amount/100];
               self.lockView.hidden = false;
             if (_model.amount == 12800) {
                 self.lockView.hidden = true;
@@ -93,7 +93,7 @@
             if (!(str.length > 0)) {
                 str = @"钻石";
             }
-            _goldLabel.text = [NSString stringWithFormat:@"%ld 连红币 ", _model.amount==3800?30:_model.amount/100];
+            _goldLabel.text = [NSString stringWithFormat:@"%ld 宝盈币 ", _model.amount==3800?30:_model.amount/100];
             _goldLabel.hidden = false;
             self.lockView.hidden = false;
         } else{
@@ -387,7 +387,7 @@
 - (UIView *)lockView {
     if (_lockView == nil) {
         _lockView = [[UIView alloc]init];
-        _lockView.backgroundColor = UIColorFromRGBWithOX(0xFF8E00);
+        _lockView.backgroundColor = UIColorFromRGBWithOX(0xDA1F48);
         _lockView.layer.cornerRadius = 12;
         _lockView.layer.masksToBounds = true;
     }

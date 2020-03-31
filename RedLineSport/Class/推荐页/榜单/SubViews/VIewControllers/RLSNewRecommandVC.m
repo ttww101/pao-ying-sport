@@ -137,7 +137,7 @@
     [nav.btnRight setBackgroundImage:[UIImage imageNamed:@"tuijianDTLeftImage"] forState:UIControlStateNormal];
     [nav.btnRight setBackgroundImage:[UIImage imageNamed:@"tuijianDTLeftImage"] forState:UIControlStateHighlighted];
     [self.view addSubview:nav];
-    NSArray *titleArray = @[@"排行榜", @"连红榜", @"盈利榜", @"人气榜"];
+    NSArray *titleArray = @[@"排行榜", @"宝盈榜", @"盈利榜", @"人气榜"];
     nav.labTitle.hidden = YES;
     UIView *indexView = [UIView new];
     indexView.frame = CGRectMake(nav.btnLeft.right, 0, nav.width - (nav.btnLeft.width * 2), nav.height);
@@ -293,8 +293,8 @@
         }
     }else if (self.typeList == typeListFore){
         _tableView.defaultTitle = self.defaultFailure;
-        _tableView.labStr = @"最长连红";
-        _tableView.labStrTwo = @"最近连红";
+        _tableView.labStr = @"最长宝盈";
+        _tableView.labStrTwo = @"最近宝盈";
         _tableView.typeNum = self.typeList;
         _tableView.arrData = _arrData;
     }else if ( self.typeList == typeListThree){

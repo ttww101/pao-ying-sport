@@ -128,7 +128,7 @@
             make.centerY.equalTo(self.userWin.mas_centerY);
         }];
     } else if (model.red > model.sclassRed) {
-        _userWin.text = [NSString stringWithFormat:@"正在%zi连红",model.red];
+        _userWin.text = [NSString stringWithFormat:@"正在%zi宝盈",model.red];
         CGFloat width = [_userWin.text widthForFont:font10];
         width += 10;
         [self.userWin mas_remakeConstraints:^(MASConstraintMaker *make) {
@@ -142,7 +142,7 @@
         }];
         
     } else if (model.sclassRed > model.red) {
-        _userWin.text = [NSString stringWithFormat:@"%@%zi连红", model.Name_JS,model.sclassRed];
+        _userWin.text = [NSString stringWithFormat:@"%@%zi宝盈", model.Name_JS,model.sclassRed];
         CGFloat width = [_userWin.text widthForFont:font10];
         width += 10;
         [self.userWin mas_remakeConstraints:^(MASConstraintMaker *make) {
